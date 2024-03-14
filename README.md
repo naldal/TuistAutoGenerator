@@ -36,6 +36,17 @@ On the other hand, **TuistAutoGen** drastically simplifies these steps by automa
 
 ## Usage
 
+### Required installations
+TuistAutoGen is written based on Tuist version 3.11.0.
+Please stick to this version for TuistAutoGen to work properly.
+
+However, if you don't have any installed on your Mac, you may need Homebrew or utility software such as mise, curl, etc.
+
+I've created and distributed another shell script file called TuistInstaller to solve this problem a little more elegantly.
+[TuistInstaller here](https://github.com/naldal/TuistInstaller/tree/master)
+
+TuistInstaller provides the necessary elements for installing Tuist.
+
 ### Basic Usage
 > **Note:** TuistAutoGen is based on bash 5.2.15 RC version (aarch64-apple-darwin22.1.0)
 > Too low of a Bash version can interfere with the functioning of the shell script.
